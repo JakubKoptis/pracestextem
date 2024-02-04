@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.283);
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.userInput {
+    background-color: snow;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+    border: solid 2px black;
+}
+
+#dropdown {
+    background-color: rgba(29, 29, 205, 0.409);
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+}
+
+.fotka {
+    padding: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsX29mZmljZV8yN192ZWN0b3JfYWVzdGhldGljX2lsbHVzdHJhdGlvbl9vZl9za3lfbm9fZ3JvdV9hNGJjMjU5ZC0zN2NkLTQ2NzgtYjM4Yi1hMDE0MTQxMDA3YTZfMS5qcGc.jpg);
+}
+
+.searchbutton {
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid black;
+}
+
+.output {
+    background-color: snow;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 10px;
+    padding: 20px;
+    border: solid 2px black;
+}
+
+.slovo {
+    background-color: snow;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+    border: solid 2px black;
+}
+
